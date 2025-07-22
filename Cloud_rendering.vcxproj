@@ -141,12 +141,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Server.cpp" />
     <ClCompile Include="shader_m.h" />
     <ClCompile Include="video_codec.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="avcoder.h" />
     <ClInclude Include="camera.h" />
+    <ClInclude Include="Server.h" />
     <ClInclude Include="video_codec.h" />
     <ClInclude Include="vertex.h" />
   </ItemGroup>
