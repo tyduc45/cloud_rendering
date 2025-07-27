@@ -38,7 +38,7 @@ namespace std {
           for(int i = 0; i < v.float_count;i++)
           {
               size_t h = hash<float>{}(v.data[i]);
-              // hash combine
+              // combined hash
               seed ^= h + 0x9e3779b9 + (seed << 6) + (seed >> 2);
           }
           return seed;
